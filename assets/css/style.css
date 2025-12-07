@@ -1,0 +1,36 @@
+.edit {
+    height: 50px;
+    width: 50px;
+    border: 1px dashed  var(--green-light);
+    padding: 6px;
+    border-radius: 100%;
+}
+:root {
+    --green-light: rgb(0, 185, 142);
+}
+h1 span {
+    color: var(--green-light);
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.fs-0 {
+    font-size: 48px;
+}
+.logo {
+    color: var(--green-light);
+}
+.py-6 {
+    padding: 170px 0;
+}
+.ps-6 {
+    padding-left: 55px;
+}
+.hero-btn {
+    background-color: var(--green-light);
+}
+.navbar {
+    margin-top: 35px;
+}
