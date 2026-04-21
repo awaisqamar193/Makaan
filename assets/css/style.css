@@ -1,16 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .edit {
     height: 50px;
     width: 50px;
-    border: 1px dashed  var(--green-light);
+    border: 1px dashed var(--green-light);
     padding: 6px;
     border-radius: 100%;
 }
+
 :root {
     --green-light: rgb(0, 185, 142);
+    --blue-light: #0E2E50;
 }
+
 h1 span {
     color: var(--green-light);
 }
+
 .hero-img img {
     width: 100%;
     height: 100%;
@@ -21,16 +31,85 @@ h1 span {
 }
 .logo {
     color: var(--green-light);
+    margin-right: auto !important;
 }
-.py-6 {
+.pt-6 {
     padding: 170px 0;
 }
+
 .ps-6 {
     padding-left: 55px;
 }
+
 .hero-btn {
     background-color: var(--green-light);
 }
+
 .navbar {
-    margin-top: 35px;
+    top: 0px;
+    left: 60px;
+    width: 90%;
+}
+
+.form-control {
+    width: 200px;
+    gap: 50px;
+}
+
+.hero-para {
+    margin-bottom: 35px;
+}
+
+.bg-color {
+    background-color: #0E2E50;
+    width: 250px;
+}
+
+.property-heading {
+    color: var(--blue-light);
+}
+
+.icon-houses {
+    width: 80px;
+    height: 80px;
+    border: 1px dashed var(--green-light);
+    transition: all .5s ease;
+}
+
+.my-color {
+    background-color: rgba(0, 185, 142, 0.08);
+    transition: all .5s ease;
+
+}
+
+.property-para {
+    color: var(--green-light);
+    transition: all .5s ease;
+}
+
+.my-border {
+    border: 1px dashed rgba(0, 185, 142, 0.388);
+    transition: all .5s ease;
+}
+
+.my-color:hover .icon-houses {
+    background-color: white;
+}
+
+.my-color:hover .my-border {
+    background-color: var(--green-light) !important;
+}
+
+.my-border h6 {
+    transition: all .5s ease;
+}
+
+.my-color:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.my-color:hover .my-border h6,
+.my-color:hover .my-border p {
+    color: white;
 }

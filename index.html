@@ -11,48 +11,50 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white py-2 z-3 px-2">
+        <nav class="navbar navbar-expand-lg bg-white shadow position-absolute mt-5 z-3 py-2 px-2">
             <div class="container-fluid">
                 <img src="./assets/images/icon-deal.png" class="edit">
-                <a class="logo ms-2 fs-1 fw-bold text-decoration-none" href="#">Makaan</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="logo text-decoration-none fs-3 fw-bold ms-2" href="#">Makaan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
 
-                <ul class="navbar-nav ms-auto mb-2 gap-3 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">property</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
-                    </li>
-                </ul>
-               <a href="#" class="text-decoration-none hero-btn ms-4 text-white px-3 py-2 rounded">Add property</a>
+                    </ul>
+                    <a href="#" class="text-decoration-none text-white hero-btn ms-3 px-3 py-2 rounded">Add Property</a>
+                </div>
             </div>
-    </div>
-    </nav>
+        </nav>
 
     </div>
     <!-- hero section start -->
     <section class="container-fluid">
-        <div class="row position-absolute top-0 gap-0">
+        <div class="row gap-0">
             <!-- left text -->
-            <div class="col-md-6">
-                <div class="hero-left py-6 ps-6 bg-body-tertiary">
+            <div class="col-md-6  col-sm-12 order-2 order-lg-1 order-md-1">
+                <div class="hero-left pt-6">
                     <h1 class="fw-bold fs-0 mb-3">Find A <span>Perfect Home</span> To Live With Your Family
                     </h1>
-                    <p class="mb-5">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo
+                    <p class="hero-para">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum
+                        ipsum
+                        et diam justo
                         clita et kasd rebum sea elitr.
                     </p>
                     <a href="#" class="text-decoration-none hero-btn text-white px-5 rounded py-3 fs-5">Get Started</a>
@@ -61,19 +63,207 @@
 
             </div>
             <!-- right content -->
-            <div class="col-md-6">
+            <div class="col-md-6  col-sm-12 order-1 order-lg-2 order-md-2 p-0">
                 <div class="hero-img">
-                    <img src="./assets/images/carousel-2.jpg">
+                    <img src="./assets/images/carousel-2.jpg" class="img-fluid">
+
                 </div>
+            </div>
+    </section>
+    <!-- SECTION END -->
+
+    <!--INPUT SECTION START  -->
+    <Section>
+        <div class="container-fluid py-4 hero-btn text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" placeholder="text-keyword" class="py-3 rounded border-0 w-100">
+
+                            </div>
+                            <div class="col-md-4">
+
+                                <select class="form-select py-3">
+                                    <option selected disabled hidden>Property Type</option>
+                                    <option value="1">Property type 1</option>
+                                    <option value="2">Property type 2</option>
+                                    <option value="3">Property type 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select py-3">
+                                    <option selected disabled hidden>Location</option>
+                                    <option value="1">Location 1</option>
+                                    <option value="2">Location 2</option>
+                                    <option value="3">Location 3</option>
+                                </select>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class=" py-3 bg-color rounded w-100">
+                            <a href="#" class="text-white text-decoration-none">Search</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </Section>
+    <!-- second section start -->
+    <section>
+        <div class="container py-5">
+            <div class="text-center">
+                <h1 class="mb-3 fw-bold property-heading">Property Type</h1>
+                <p class="mb-3 text-secondary-emphasis">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
+                    dolore lorem kasd <br>vero ipsum sit eirmod
+                    sit.
+                    Ipsum diam justo sed rebum vero dolor duo.
+
+            </div>
+            <div class="row py-5 g-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-apartment.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Apartment</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-villa.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Villa</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-house.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Home</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-housing.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Office</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-building.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Building</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-neighborhood.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Townhouse</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-condominium.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">
+                                shop
+                            </h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center my-color rounded ">
+                        <div class="bg-white p-4 my-border rounded">
+                            <div
+                                class="icon-houses d-flex align-items-center justify-content-center m-auto rounded-pill mb-2">
+                                <img src="./assets/images/icon-deal.png" class="img-fluid">
+                            </div>
+                            <h6 class="fw-bold">Deal</h6>
+                            <p class="property-para"> 123 Properties</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
 
 
             </div>
 
         </div>
 
+
+        </p>
     </section>
-
-
 
 
 
