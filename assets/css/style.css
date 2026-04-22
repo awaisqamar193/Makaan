@@ -26,13 +26,16 @@ h1 span {
     height: 100%;
     overflow: hidden;
 }
+
 .fs-0 {
     font-size: 48px;
 }
+
 .logo {
     color: var(--green-light);
     margin-right: auto !important;
 }
+
 .pt-6 {
     padding: 170px 0;
 }
@@ -112,4 +115,32 @@ h1 span {
 .my-color:hover .my-border h6,
 .my-color:hover .my-border p {
     color: white;
+}
+
+.about-heading {
+    color: var(--blue-light);
+}
+
+.about-icons i {
+    color: var(--green-light);
+}
+
+.about-btn {
+    background-color: var(--green-light);
+    transition: all .5s ease;
+}
+.about-btn:hover {
+    background-color: rgba(0, 185, 142, 0.795);
+}
+.pseudo-img::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -50%;
+    width: 90%;
+    height: 100%;
+    background: var(--green-light);
+    transform: skew(15deg);
+    z-index: -1;
+
 }
