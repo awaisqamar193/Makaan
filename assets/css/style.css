@@ -144,3 +144,73 @@ h1 span {
     z-index: -1;
 
 }
+.my-active {
+    background-color: var(--green-light);
+    color: white;
+    border: 1px solid var(--green-light) !important;
+}
+.property-list:hover  {
+    background-color: var(--green-light);
+    color: white !important;
+    border: 1px solid var(--green-light);
+    
+}
+@media (max-width: 768px) {
+    .nav-position {
+         display: flex;
+         justify-content: flex-start !important;
+         align-items: flex-start !important;
+    }
+    
+
+    
+}
+.property-position {
+    background-color: var(--green-light);
+}
+.btn-position {
+    bottom: -5px;
+    color: var(--green-light);
+    
+
+}
+.price-property {
+    color: var(--green-light);
+}
+.property-pin {
+    color: var(--green-light);
+}
+.small-icons {
+    border-top: 1px dashed var(--green-light);
+}
+.border-small {
+    border-right: .5px dashed rgba(0, 185, 142, 0.260);
+
+}
+.property-icon {
+    border-right: 1px dashed rgba(0, 185, 142, 0.539);
+    flex: 1;
+}
+.parent-control .property-img {
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.parent-control:hover .property-img {
+    transform: scale(1.1);
+}
+.property-icon i {
+    color: var(--green-light);
+    font-size: 15px;
+}
+
+.prop-head:hover {
+    color: var(--green-light);
+    cursor: pointer;
+}
+.property-btn {
+    background-color: var(--green-light);
+    transition: all .5s ease;
+}
+.property-btn:hover {
+     background-color: rgba(0, 185, 142, 0.847);
+}
