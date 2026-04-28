@@ -1,11 +1,12 @@
-
-
 .edit {
     height: 50px;
     width: 50px;
     border: 1px dashed var(--green-light);
     padding: 6px;
     border-radius: 100%;
+}
+* {
+    box-sizing: border-box;
 }
 
 :root {
@@ -125,9 +126,11 @@ h1 span {
     background-color: var(--green-light);
     transition: all .5s ease;
 }
+
 .about-btn:hover {
     background-color: rgba(0, 185, 142, 0.795);
 }
+
 .pseudo-img::before {
     position: absolute;
     content: "";
@@ -140,60 +143,73 @@ h1 span {
     z-index: -1;
 
 }
+
 .my-active {
     background-color: var(--green-light);
     color: white;
     border: 1px solid var(--green-light) !important;
 }
-.property-list:hover  {
+
+.property-list:hover {
     background-color: var(--green-light);
     color: white !important;
     border: 1px solid var(--green-light);
-    
+
 }
+
 @media (max-width: 768px) {
     .nav-position {
-         display: flex;
-         justify-content: flex-start !important;
-         align-items: flex-start !important;
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
     }
-    
 
-    
+
+
 }
+
 .property-position {
     background-color: var(--green-light);
 }
+
 .btn-position {
     bottom: -5px;
     color: var(--green-light);
-    
+
 
 }
+
 .price-property {
     color: var(--green-light);
 }
+
 .property-pin {
     color: var(--green-light);
 }
+
 .small-icons {
     border-top: 1px dashed var(--green-light);
 }
+
 .border-small {
     border-right: .5px dashed rgba(0, 185, 142, 0.260);
 
 }
+
 .property-icon {
     border-right: 1px dashed rgba(0, 185, 142, 0.539);
     flex: 1;
 }
+
 .parent-control .property-img {
     transition: all .5s ease;
     cursor: pointer;
 }
+
 .parent-control:hover .property-img {
     transform: scale(1.1);
 }
+
 .property-icon i {
     color: var(--green-light);
     font-size: 15px;
@@ -203,35 +219,44 @@ h1 span {
     color: var(--green-light);
     cursor: pointer;
 }
+
 .property-btn {
     background-color: var(--green-light);
     transition: all .5s ease;
 }
+
 .property-btn:hover {
-     background-color: rgba(0, 185, 142, 0.847);
+    background-color: rgba(0, 185, 142, 0.847);
 }
+
 .contact-btn {
     background-color: var(--green-light);
     transition: all .5s ease;
 }
+
 .contact-btn:hover {
     background-color: rgba(0, 185, 142, 0.779);
 }
+
 .sec-contact {
     background-color: var(--blue-light);
 }
+
 .around-color {
     background-color: rgba(0, 185, 142, 0.103);
 }
+
 .parent-border {
-    border: 1px dashed  rgba(0, 185, 142, 0.863);
+    border: 1px dashed rgba(0, 185, 142, 0.863);
 }
+
 .icon-position {
     left: 50%;
     transform: translateX(-50%);
     bottom: -20px;
-    
+
 }
+
 .icon-back {
     width: 40px;
     height: 40px;
@@ -240,10 +265,68 @@ h1 span {
     color: var(--green-light);
     transition: all .5s ease;
 }
+
 .icon-back:hover {
     background-color: var(--green-light);
     color: white;
 }
+
 .desig-para {
     font-size: 14px;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.491);
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.footer-icon:hover {
+    color: var(--green-light) !important;
+    background-color: white;
+}
+
+.last-sec {
+    background-color: var(--blue-light);
+}
+
+.icon-and-text {
+    color: rgba(163, 162, 162, 0.71);
+}
+
+.Quick-Links {
+    color: rgba(163, 162, 162, 0.71);
+}
+
+.Quick-Links::before {
+    content: ">";
+    position: absolute;
+    color: rgba(163, 162, 162, 0.71);
+    top: 0;
+     left: 0;
+}
+
+.footer-input::placeholder {
+    color: rgba(163, 162, 162, 0.71);
+}
+
+.footer-sign {
+    background-color: var(--green-light);
+    color: white;
+    border: none;
+}
+.last-para {
+     color: rgba(163, 162, 162, 0.71);
+}
+.last-part {
+    border-top: 1px solid rgba(211, 211, 211, 0.144);
+}
+@media (max-width: 768px) {
+    .last-list {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
 }
