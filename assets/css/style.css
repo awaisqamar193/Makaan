@@ -5,6 +5,7 @@
     padding: 6px;
     border-radius: 100%;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -12,13 +13,11 @@
 .main-header {
     position: absolute;
     top: 45px;
-    left: 0;
-    right: 0;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all .3s ease;
 }
 
 .sticky {
@@ -63,7 +62,7 @@ h1 span {
 
 
 .form-control {
-    width: 200px;
+    width: 100%;
     gap: 50px;
 }
 
@@ -73,7 +72,8 @@ h1 span {
 
 .bg-color {
     background-color: #0E2E50;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
 }
 
 .property-heading {
@@ -344,6 +344,7 @@ h1 span {
     }
 
 }
+
 .breadcrumb li a::before {
     content: "";
     position: absolute;
@@ -354,6 +355,34 @@ h1 span {
     height: 65%;
     transform: skew(-15deg);
 }
+
 .breadcrumb .active {
     color: var(--green-light);
+}
+
+.special-contact-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px dashed var(--green-light);
+}
+
+.contact-page-btn {
+    background-color: var(--green-light);
+    transition: all .5s ease;
+}
+
+.color-input {
+    box-shadow: none;
+}
+
+.color-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 185, 142, 0.194);
+    border-color: var(--green-light);
+}
+
+.contact-page-btn:hover {
+    background-color: rgba(0, 185, 142, 0.838);
+}
+body {
+    overflow-x: hidden;
 }
