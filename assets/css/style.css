@@ -10,6 +10,16 @@
     box-sizing: border-box;
 }
 
+.navbar-nav li a {
+    color: var(--blue-light);
+    transition: all .3s ease;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.navbar-nav li a:hover {
+    color: var(--green-light);
+}
+
 .main-header {
     position: absolute;
     top: 45px;
@@ -383,6 +393,7 @@ h1 span {
 .contact-page-btn:hover {
     background-color: rgba(0, 185, 142, 0.838);
 }
+
 body {
     overflow-x: hidden;
 }
