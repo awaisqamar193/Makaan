@@ -16,6 +16,7 @@
     font-size: 16px !important;
     font-weight: 500;
 }
+
 .navbar-nav li a:hover {
     color: var(--green-light);
 }
@@ -396,4 +397,26 @@ h1 span {
 
 body {
     overflow-x: hidden;
+}
+
+#fixed-tag {
+    background-color: var(--green-light);
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+/* 👇 yahan space hatao */
+#fixed-tag.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar .nav-link.active {
+    color: var(--green-light) !important;
+    font-weight: 600;
 }

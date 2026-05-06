@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -23,19 +24,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto gap-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Property.html">Property</a>
+                    <a class="nav-link" href="Property.html">Property</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Pages.html">Pages</a>
+                    <a class="nav-link" href="Pages.html">Pages</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
 
             </ul>
@@ -47,7 +48,7 @@
     <section class="container-fluid">
         <div class="row gap-0 align-items-center">
             <!-- left text -->
-            <div class="col-md-6  col-sm-12 order-2 order-lg-1 order-md-1">
+            <div class="col-md-6  col-sm-12 order-2 order-lg-1 order-md-1" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
                 <div class="hero-left p-5">
                     <h1 class="fw-bold fs-0 mb-3 about-heading">Contact Us
                     </h1>
@@ -61,7 +62,7 @@
 
             </div>
             <!-- right content -->
-            <div class="col-md-6  col-sm-12 order-1 order-lg-2 order-md-2 p-0">
+            <div class="col-md-6  col-sm-12 order-1 order-lg-2 order-md-2 p-0" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="500">
                 <div class="hero-img">
                     <img src="./assets/images/header.jpg" class="img-fluid">
 
@@ -121,13 +122,13 @@
     <!-- contact-page section -->
     <section class="py-5 contact-page">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                 <h1 class="about-heading mb-3 fw-bold">Contact Us</h1>
                 <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd <br> vero ipsum sit
                     eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                     <div class="p-3 around-color rounded mb-3">
                         <div class="bg-white p-3 parent-border rounded">
                             <div class="d-flex  align-items-center">
@@ -146,7 +147,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                     <div class="p-3 around-color rounded mb-3">
                         <div class="bg-white p-3 parent-border rounded">
                             <div class="d-flex  align-items-center">
@@ -167,7 +168,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
                     <div class="p-3 around-color rounded mb-3">
                         <div class="bg-white p-3 parent-border rounded">
                             <div class="d-flex  align-items-center">
@@ -196,7 +197,7 @@
             </div>
 
             <div class="row mt-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                     <div class="mb-5">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2152567.524893767!2d-75.77004055!3d42.7462195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e1!3m2!1sen!2sbd!4v1777533752706!5m2!1sen!2sbd"
@@ -205,7 +206,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                     <div>
                         <p>The contact form is currently inactive. Get a functional and working contact form with Ajax &
                             PHP in a few minutes. Just copy and paste the files, add a little code and you're done. </p>
@@ -417,6 +418,12 @@
     </footer>
 
 
+     <a href="#" id="fixed-tag"
+        class="text-decoration-none text-white  position-absolute  d-flex justify-content-center align-items-center rounded-circle position-fixed"><i
+            class="ri-arrow-up-long-line"></i></a>
+
+
+
 
 
 
@@ -429,6 +436,10 @@
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
