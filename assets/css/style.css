@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+
 .navbar-nav li a {
     color: var(--blue-light);
     transition: all .3s ease;
@@ -69,12 +70,11 @@ h1 span {
 
 .hero-btn {
     background-color: var(--green-light);
+    transition: all .5s ease;
 }
+.hero-btn:hover {
+    background-color: rgba(0, 185, 142, 0.806);
 
-
-.form-control {
-    width: 100%;
-    gap: 50px;
 }
 
 .hero-para {
@@ -363,13 +363,12 @@ h1 span {
 
 }
 
-
 .s-input:focus {
     outline: none !important;
 }
 
-.container-fluid,
-.row {
+html,
+body {
     overflow-x: hidden;
 }
 
