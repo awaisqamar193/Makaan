@@ -84,7 +84,6 @@ h1 span {
 .bg-color {
     background-color: #0E2E50;
     width: 100%;
-    max-width: 250px;
 }
 
 .property-heading {
@@ -354,6 +353,31 @@ h1 span {
         align-items: center !important;
     }
 
+}
+
+@media (max-width: 768px) {
+    .blue-sbtn {
+        margin-top: 10px;
+
+    }
+
+}
+
+
+.s-input:focus {
+    outline: none !important;
+}
+
+.container-fluid,
+.row {
+    overflow-x: hidden;
+}
+
+
+.last-list ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .breadcrumb li a::before {
